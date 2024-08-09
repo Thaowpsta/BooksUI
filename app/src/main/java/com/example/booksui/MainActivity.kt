@@ -20,14 +20,14 @@ class MainActivity : ComponentActivity() {
         setContentView(view)
 
         val books = mutableListOf<Book>(
-            Book(R.drawable.solitude, "One Hundred Years of Solitude", "by Gabriel García Márquez"),
-            Book(R.drawable.nostra, "Terra Nostra", "by Carlos Fuentes"),
-            Book(R.drawable.angels, "Angels & Demons", "by Dan Brown"),
-            Book(R.drawable.sword, "The Sword Thief", "by Peter Lerangis"),
-            Book(R.drawable.inferno, "Inferno", "by Dan Brown"),
-            Book(R.drawable.blood, "Bloodline", "by James Rollins"),
-            Book(R.drawable.spirits, "The House of the Spirits", "by Isabel Allende"),
-            Book(R.drawable.humming, "The Hummingbird's Daughter", "by Luis Alberto Urrea"),
+            Book(R.drawable.solitude, "One Hundred Years of Solitude", "by Gabriel García Márquez", 3.5f),
+            Book(R.drawable.nostra, "Terra Nostra", "by Carlos Fuentes", 3f),
+            Book(R.drawable.angels, "Angels & Demons", "by Dan Brown", 4f),
+            Book(R.drawable.sword, "The Sword Thief", "by Peter Lerangis", 2f),
+            Book(R.drawable.inferno, "Inferno", "by Dan Brown", 4.5f),
+            Book(R.drawable.blood, "Bloodline", "by James Rollins", 2f),
+            Book(R.drawable.spirits, "The House of the Spirits", "by Isabel Allende", 3f),
+            Book(R.drawable.humming, "The Hummingbird's Daughter", "by Luis Alberto Urrea", 4.5f),
         )
 
         val adapter = BookAdapter(books)
