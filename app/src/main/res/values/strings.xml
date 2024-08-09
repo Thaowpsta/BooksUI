@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BooksUI</string>
+    <string name="notification">Notifications</string>
+    <string name="books">Books</string>
+    <string name="reviews">Reviews</string>
+    <string name="favs">Favorite</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="user_name">Thaowpsta Saiid</string>
+    <string name="read">Want to read</string>
+    <string name="notificationClick">Notification Clicked</string>
+    <string name="reviewsClick">Review clicked</string>
+    <string name="favsClick">Favorites clicked</string>
+    <string name="searchClick">Search clicked</string>
+    <string name="profileClick">Profile clicked</string>
+    <string name="settingsClick">Settings clicked</string>
+</resources>
